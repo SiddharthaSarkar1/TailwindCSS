@@ -8,3 +8,27 @@ VS Code plugin :-
 Tailwindcss Intellisense
 
 npx tailwindcss init
+
+
+Add to input css file ---------------------------
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+---------------------------
+
+Package.json -------------------
+"scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+-----------------------------------
+
+Settings.json ---------------------------------
+{
+    "css.validate": false,
+    "tailwindCSS.emmetCompletions": true
+  }
+----------------------------------
+Build command ---------------------------
+npm run build
+
+----------------------------------------
