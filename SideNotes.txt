@@ -1,0 +1,10 @@
+Install Tailwind CLI :-
+
+node -v
+npm init -y  {It will initialize a node project}
+npm i -D tailwindcss
+
+VS Code plugin :-
+Tailwindcss Intellisense
+
+npx tailwindcss init
