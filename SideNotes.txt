@@ -32,3 +32,9 @@ Build command ---------------------------
 npm run build
 
 ----------------------------------------
+Tailwind Css Doc link
+v2 : 
+https://v2.tailwindcss.com/docs/utility-first
+v3 :
+https://tailwindcss.com/docs/utility-first
+---------------------------------------------------

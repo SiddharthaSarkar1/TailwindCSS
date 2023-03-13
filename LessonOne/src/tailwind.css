@@ -15,4 +15,20 @@
     .bg-gradient-brand {
       background-image: linear-gradient(blue, green);
     }
+    
   }
+
+  .btn-blue {
+    background-color: theme('colors.blue.500');
+  }
+
+
+  @media screen(sm) {
+    body{
+      background-color: theme('colors.pink.500')
+    }
+    .btn-blue {
+      background-color: theme('colors.green.500');
+      }
+  }
+

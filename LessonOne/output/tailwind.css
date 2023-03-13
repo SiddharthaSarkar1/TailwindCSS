@@ -513,6 +513,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.btn-blue {
+  background-color: #3b82f6;
+}
+
+@media (min-width: 640px) {
+  body{
+    background-color: #ec4899
+  }
+
+  .btn-blue {
+    background-color: #22c55e;
+  }
+}
+
 .hover\:text-color-red:hover {
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity));
@@ -528,3 +542,4 @@ video {
     background-image: linear-gradient(blue, green);
   }
 }
+
