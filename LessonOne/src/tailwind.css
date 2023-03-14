@@ -4,8 +4,8 @@
 
     @variants hover, focus {
     .text-color-red {
-        @apply text-green-600;
-    }
+        @apply text-green-300
+    },
     .text-bgcolor-yellow {
       @apply bg-yellow-300
     }
