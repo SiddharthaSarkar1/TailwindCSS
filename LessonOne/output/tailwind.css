@@ -513,33 +513,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-pink-dark {
-  --tw-text-opacity: 1;
-  color: rgb(255 22 209 / var(--tw-text-opacity));
-}
-
 .text-MyColor-300 {
   --tw-text-opacity: 1;
   color: rgb(217 213 213 / var(--tw-text-opacity));
 }
 
-@variants hover, focus {
-  .text-color-red {
-    --tw-text-opacity: 1;
-    color: rgb(134 239 172 / var(--tw-text-opacity));
-  }
-
-  ,
-    .text-bgcolor-yellow {
-    --tw-bg-opacity: 1;
-    background-color: rgb(253 224 71 / var(--tw-bg-opacity));
-  }
-}
-
-@responsive {
-  .bg-gradient-brand {
-    background-image: linear-gradient(blue, green);
-  }
+.text-pink-dark {
+  --tw-text-opacity: 1;
+  color: rgb(255 22 209 / var(--tw-text-opacity));
 }
 
 .btn-blue {
