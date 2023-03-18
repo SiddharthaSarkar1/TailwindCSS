@@ -38,3 +38,18 @@ https://v2.tailwindcss.com/docs/utility-first
 v3 :
 https://tailwindcss.com/docs/utility-first
 ---------------------------------------------------
+
+#Command to add PostCSS ---------------------------
+npm i postcss postcss-cli autoprefixer
+-----------------------------------------
+#Command to add postcss.config.js file----------
+npx tailwindcss init -p
+---------------------------------------------
+
+#We have to add a build script in package.json file-------------
+"build-p": "postcss ./src/tailwind.css -o ./output/tailwind.css -w"
+--------------------------------------------------------
+
+#BuildCommand -----------------------------------
+npm run build-p
+-------------------------------------------------

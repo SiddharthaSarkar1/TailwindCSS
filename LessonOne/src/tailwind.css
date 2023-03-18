@@ -2,33 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-    @variants hover, focus {
-    .text-color-red {
-        @apply text-green-300
-    },
-    .text-bgcolor-yellow {
-      @apply bg-yellow-300
-    }
-  }
+.text-body{
+  font-size: 2rem;
+}
 
-  @responsive {
-    .bg-gradient-brand {
-      background-image: linear-gradient(blue, green);
-    }
-    
-  }
-
-  .btn-blue {
-    background-color: theme('colors.blue.500');
-  }
-
-
-  @media screen(sm) {
-    body{
-      background-color: theme('colors.pink.500')
-    }
-    .btn-blue {
-      background-color: theme('colors.green.500');
-      }
-  }
-
+input::placeholder{
+  color: gray;
+}
